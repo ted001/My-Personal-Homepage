@@ -1,0 +1,25 @@
+{
+  "name": "my-personal-homepage",
+  "version": "1.0.0",
+  "description": "This is my presonal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ted001/My-Personal-Homepage.git"
+  },
+  "keywords": [],
+  "author": "Zhiyi Jin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ted001/My-Personal-Homepage/issues"
+  },
+  "homepage": "https://github.com/ted001/My-Personal-Homepage#readme",
+  "dependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  }
+}
