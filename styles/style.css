@@ -8,6 +8,12 @@ body {
   text-align: center;
 }
 
+#experience {
+  max-width: 1300px;
+  margin: auto;
+  padding: 100px 40px;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -65,7 +71,7 @@ body {
   margin-bottom: 2rem;
 }
 
-/*About*/
+/*ABOUT SECTION*/
 .section-title {
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -88,7 +94,73 @@ body {
   margin-bottom: 2rem;
 }
 
-/*skills*/
+/*SKILLS SECTION*/
 .skills-subtitle {
   font-weight: 400;
+}
+
+/*EXPERIENCE SECTION*/
+.time-line {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: calc(50% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 30px;
+  position: relative;
+}
+
+.block::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 110%;
+  background-color: #ddd;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.block::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #ffb3e6;
+  left: -28px;
+  top: 30px;
+  border-radius: 50%;
+}
+
+.block h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.block p {
+  font-size: 15px;
+  color: #444;
+}
+
+/*FOOTER*/
+.bottom-container {
+  text-align: center;
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.footer-link {
+  color: #8898aa;
+  text-decoration: none;
+  padding: 0 20px;
 }
