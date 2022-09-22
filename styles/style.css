@@ -1,10 +1,23 @@
 body {
-  background-color: #FBFBFE;
+  background-color: #fbfbfe;
+}
+
+#about,
+#skills {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 30px 0;
+  top: 0;
 }
 
 /*HOME SECTION*/
 #home {
-  margin: 100px auto;
+  margin: 100px auto 0;
   text-align: center;
 }
 
@@ -53,23 +66,29 @@ body {
 }
 
 /*About*/
-.section-title{
-    font-size: 2rem;
-    font-family: 'Maven Pro', sans-serif;
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Maven Pro", sans-serif;
 }
 
-.section-subtitle{
-    display: block;
-    color: #6B687B;
+.section-subtitle {
+  display: block;
+  color: #6b687b;
 }
 
-.section-title, 
-.section-subtitle{
-    text-align: center;
+.section-title,
+.section-subtitle {
+  text-align: center;
 }
 
 #myPhoto {
-    width: 40%;
-    border-radius: .5rem;
-    margin-bottom: 2rem;
+  width: 40%;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/*skills*/
+.skills-subtitle {
+  font-weight: 400;
 }
