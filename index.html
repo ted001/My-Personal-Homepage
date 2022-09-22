@@ -10,11 +10,13 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">Zhiyi Jin</a>
 
@@ -53,14 +55,111 @@
       </nav>
     </header>
     <!-- Main -->
-    <!-- Home -->
-    <!-- About -->
-    <!-- Skills -->
-    <!-- Experience -->
-    <!-- Educations -->
-    <!-- Contact -->
+    <main class="main">
+      <!-- Home -->
+      <section id="home">
+        <div class="container">
+          <img src="images/photo.png" alt="img-photo" />
+          <h2 class="title">Hello, I'm Zhiyi Jin</h2>
+          <p class="intro">
+            Software Engineer | MSCS@Northeastern University | Seeking 2023
+            Summer SDE Internship
+          </p>
+          <div class="resume">
+            <a
+              href="https://drive.google.com/file/d/1ZAZsGkQJG76GoNvIUBlBi465aquQQ_MA/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="contact-info">
+            <ul id="contact-list">
+              <li><i class="fas fa-phone-alt"></i> (510) 809-5798</li>
+              <li>
+                <i class="far fa-envelope"></i>
+                <a href="mailto:jin.zhiy@northeastern.edu"
+                  >jin.zhiy@northeastern.edu</a
+                >
+              </li>
+            </ul>
+            <ul id="social-media-list" class="list-group list-group-horizontal">
+              <li class="list-group-item">
+                <a
+                  href="https://www.linkedin.com/in/zhiyijin/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a
+                  href="https://github.com/ted001"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+
+              <li class="list-group-item">
+                <a
+                  href="https://twitter.com/victoryjzy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about">
+        <h2 class="section-title">About</h2>
+        <span class="section-subtitle"> My Introduction </span>
+        <div class="container">
+          <div class="text-center">
+            <img
+              src="images/myself.jpg"
+              alt="myself photo"
+              id="myPhoto"
+              class="img-fluid"
+            />
+          </div>
+          <div class="about__data">
+            <p class="about__description" id="home-about">
+              I have worked as an infotainment software and system engineer for
+              8+ years in the automotive industry where I was exposed to
+              different IT technologies and solutions which made me realize the
+              importance of CS technology in building a safer and smarter car.
+              This made me choose the MSCS program where I am trying to lay a
+              solid foundation in this field. On a personal level, I am
+              meticulous, organized and precise in my work. I am easy to
+              collaborate with and work efficiently under pressure. Currently I
+              am looking forward to restarting my career as SDE for the 2023
+              summer internship.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section id="skills"></section>
+      <!-- Experience -->
+      <section id="experience"></section>
+      <!-- Educations -->
+      <section id="educations"></section>
+    </main>
     <!-- Footer -->
 
+    <script
+      src="https://kit.fontawesome.com/8ec949be44.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
