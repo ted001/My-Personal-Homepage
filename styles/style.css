@@ -9,7 +9,6 @@ body {
 }
 
 #experience {
-  max-width: 1300px;
   margin: auto;
   padding: 100px 40px;
 }
@@ -34,6 +33,10 @@ body {
 #home {
   margin: 100px auto 0;
   text-align: center;
+}
+
+#email {
+  padding-top: 10px;
 }
 
 .title {
