@@ -29,7 +29,7 @@ body {
   top: 0;
 }
 
-/*HOME SECTION*/
+/* ======= HOME SECTION ==================== */
 #home {
   margin: 100px auto 0;
   text-align: center;
@@ -85,7 +85,7 @@ body {
   margin-bottom: 30px;
 }
 
-/*ABOUT SECTION*/
+/* ======= ABOUT SECTION ==================== */
 .section-title {
   font-size: 32px;
   margin-bottom: 30px;
@@ -108,12 +108,12 @@ body {
   margin-bottom: 24px;
 }
 
-/*SKILLS SECTION*/
+/* ======= SKILLS SECTION ==================== */
 .skills-subtitle {
   font-weight: 400;
 }
 
-/*EXPERIENCE SECTION*/
+/* ======= EXPERIENCE SECTION ==================== */
 .time-line {
   display: flex;
   justify-content: space-between;
@@ -161,7 +161,7 @@ body {
   color: #444;
 }
 
-/*FOOTER*/
+/* ======= FOOTER SECTION ==================== */
 .bottom-container {
   text-align: center;
   background-color: #66bfbf;

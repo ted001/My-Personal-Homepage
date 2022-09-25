@@ -1,5 +1,6 @@
 var btn = document.getElementById("theme-button");
 var intro = document.getElementById("intro-txt");
+var email = document.getElementById("email");
 var flag = 0;
 btn.onclick = function () {
     if (flag == 0) {
@@ -7,12 +8,14 @@ btn.onclick = function () {
         btn.classList.remove("fa-moon");
         btn.classList.add("fa-sun");
         intro.style.color = "#fff";
+        email.style.color = "#fff";
         flag = 1;
     } else {
         document.body.style.backgroundColor = "#fbfbfe";
         btn.classList.remove("fa-sun");
         btn.classList.add("fa-moon");
         intro.style.color = "#40514e";
+        email.style.color = "black";
         flag = 0;
     }
 };
